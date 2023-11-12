@@ -1,0 +1,50 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.fancy-button {
+    background-color: #6495ed;
+    color: white;
+    width: 200px;
+    height: 80px;
+    border: none;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: bold;
+
+}
+img{
+    border-radius: 6px;
+}
+
+.fancy-button:hover {
+    background-color: #6494ede1;
+}
+
+.fancy-button:active {
+    background-color: #6494eda4;
+
+}
+
+.list-left{
+    vertical-align: top;
+}
+
+.sidebar{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    position: fixed;
+    background-color: white;
+    border: black;
+    border-width: 2px;
+    
+}
